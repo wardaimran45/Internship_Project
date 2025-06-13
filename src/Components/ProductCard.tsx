@@ -13,12 +13,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
       return (
           <Card sx={{
         display: 'flex',
-        flexDirection: { xs: 'column', sm: 'row', md: 'row' , lg: 'row' , xl: 'row' },
-        alignItems: 'center',
+        flexDirection: { xs: 'column', sm: 'row'},
+         alignItems: { xs: 'flex-start', sm: 'center' },
         padding: 2,
         borderRadius: 3,
+         width: '100%',
         border: '2px solid #d6d6d6',
-        width: { xs: 343, sm: 'auto' },
+        // width: { xs: 343, sm: 'auto' },
         maxWidth: 600,
         margin: '10px',
       }}>
